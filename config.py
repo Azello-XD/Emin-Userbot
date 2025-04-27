@@ -82,7 +82,7 @@ class Config:
     STRING_SESSION = getenv("STRING_SESSION", None)
 
     # Logging channel/group ID configuration.
-    BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "-1002516449942"))
+    BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "-1002584508663"))
 
     # Load or No Load modules
     LOAD = getenv("LOAD", "").split()
